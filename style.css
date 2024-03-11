@@ -1,0 +1,95 @@
+
+body{
+    background-color: cornsilk;
+}
+h1{
+    text-align: center;
+}
+#boxes {
+    display: flex;
+}
+#yourScore{
+    display: flex;
+    width: 200px;
+    height: 80px;
+    background-color: pink;
+    border: 2px solid black;
+    border-radius: 5px;
+    justify-content: center;
+    text-align: center;
+    line-height: 80px;
+}
+#computerScore{
+    display: flex;
+    width: 200px;
+    height: 80px;
+    background-color: pink;
+    border: 2px solid black;
+    border-radius: 5px;
+    justify-content: center;
+    text-align: center;
+    line-height: 80px;
+}
+#display{
+  display: flex;
+  width: 500px;
+  height: 100px;
+  background-color:orange;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 50px auto;
+  justify-content: center;
+  text-align: center;
+  line-height: 100px;
+}
+button{
+    display: flex;
+    text-align: center;
+    width: 80px;
+    height: 40px;
+    background-color: aqua;
+    border-radius: 10px;
+    flex-shrink: 1;
+    align-items: center;
+    justify-content: center;
+}
+button:hover{
+  transform: scale(1.2);
+}
+#all-btn{
+    display: flex;
+    gap: 180px;
+}
+#opt {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+#yourbox, #computerbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#btn-line2{
+    display: flex;
+    gap: 160px;
+}
+#btn-line2>button{
+
+    background-color: brown;
+    color: pink;
+}
+#newgame{
+    background-color: burlywood;
+    margin-left: 20px;
+}
+#currgame{
+    display: flex;
+    width: 280px;
+    height: 100px;
+    background-color: antiquewhite;
+    margin: 20px auto;
+    align-items: center;
+    justify-content: center;
+    line-height: 100px;
+}
